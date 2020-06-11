@@ -1,6 +1,8 @@
 public class Teacher {
     private String name;
     private String address;
+    private String major;
+
 
     public Teacher(String name, String address) {
         this.name = name;
@@ -13,5 +15,13 @@ public class Teacher {
 
     public String getAddress() {
         return address;
+    }
+
+    public String getMajor() {
+        return major;
+    }
+
+    public void setMajor(String major) {
+        this.major = major;
     }
 }
