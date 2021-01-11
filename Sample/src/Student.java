@@ -2,6 +2,8 @@ public class Student {
 
     private String name;
     private int grade;
+    private String address;
+
 
     public String getName() {
         return name;
